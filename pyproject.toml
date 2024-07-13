@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "suchak"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "suchak", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+typer = "^0.12.3"
+rich = "^13.7.1"
+fastapi = "^0.111.0"
+pydantic = "^2.8.2"
+llama-index-core = "^0.10.55"
+llama-parse = "^0.4.7"
+llama-index-readers-file = "^0.1.30"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
